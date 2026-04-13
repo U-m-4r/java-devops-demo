@@ -6,4 +6,4 @@ COPY . .
 
 RUN mvn clean package
 
-CMD ["java", "-jar", "target/java-app.jar"]
+CMD ["java", "-jar", "target/java-devops-demo-1.0.jar"]
